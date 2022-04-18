@@ -102,5 +102,13 @@ input, select {
 }
 
 :root {
-    --handstoburma-primary: #2b4e6e;
+    --handstoburma-primary: #565676;
+    --handstoburma-primary: #91818A;
+    --handstoburma-primary: #A1A6B4;
+    --handstoburma-primary: #58504A;
 }
+
+* {
+    text-decoration: none;
+}
+
