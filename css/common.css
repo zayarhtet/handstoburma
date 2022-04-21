@@ -22,7 +22,7 @@ time, mark, audio, video {
     padding:0;
     border:0;
     outline:0;
-    font-size:100%;
+    /* font-size:100%; */
     vertical-align:baseline;
     background:transparent;
 }
@@ -106,6 +106,7 @@ input, select {
     --handstoburma-primary: #91818A;
     --handstoburma-primary: #A1A6B4;
     --handstoburma-primary: #58504A;
+    --handstoburma-secondary: #DBB1BC;
 }
 
 * {
