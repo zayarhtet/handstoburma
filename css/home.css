@@ -62,14 +62,15 @@ header {
 }
 
 .banner-content p {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 30px;
     color: var(--handstoburma-primary);
     font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .banner-content a {
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 10px;
     text-decoration: none;
     font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -90,9 +91,128 @@ header {
     background-color: var(--handstoburma-primary);
 }
 
+.idps-war-refugees {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.idps-war-refugees h3 {
+    font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.short-border-bottom {
+    width: 130px;
+    height: 4px;
+    background-color: var(--handstoburma-secondary);
+    margin: 0 auto;
+}
+
+.ques-ans-r {
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.ques-ans-l {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.wh-ques-r {
+    
+}
+
+.wh-ques-r h3{
+    font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.wh-ques-l h3 {
+    font-size: 30px;
+    font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-weight: 600;
+    text-align: left;
+}
+
+.wh-ans-r {}
+
+.wh-ans-r p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: var(--handstoburma-primary);
+    text-align: right;
+}
+
+.wh-ans-l p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: var(--handstoburma-primary);
+    text-align: left;
+}
+
+.intro-text {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.intro-text p {
+    text-align: center;
+    color: var(--handstoburma-primary);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* .intro-text p::first-letter {
+    font-size: 50px;
+    color: var(--handstoburma-primary);
+    font-weight: 600;
+} */
+
+.img-what {
+    width: 100%;
+    height: 300px;
+    background-color:#DBB1BC;
+    margin-top: 20px;
+}
+
+.vid {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
 @media screen and (max-width: 1200px) {
     .menu {
         padding: 25px 15px;
+    }
+    .ques-ans-r {
+        padding-left: 10px;
+    }
+    .ques-ans-l {
+        padding-right: 10px;
+    }
+    .wh-ans-r p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .wh-ans-l p {
+        font-size: 16px;
+        line-height: 30px;
     }
 }
 
@@ -102,6 +222,12 @@ header {
     }
     .menu li a {
         font-size: 12px;    
+    }
+    .ques-ans-l {
+        padding-right: 0px;
+    }
+    .ques-ans-r {
+        padding-left: 0px;
     }
 }
 
@@ -113,10 +239,36 @@ header {
     .banner-content p {
         font-size: 14px;
     }
+    .ques-ans-r {
+        padding: 10px;
+    }
+    .ques-ans-l {
+        padding: 10px;
+    }
+    .wh-ques-r h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .wh-ques-l h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .wh-ans-r p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .wh-ans-l p {
+        font-size: 14px;
+        line-height: 25px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    
+    .idps-war-refugees h3 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {

@@ -113,3 +113,6 @@ input, select {
     text-decoration: none;
 }
 
+body {
+    background-color: #fafafa;
+}
