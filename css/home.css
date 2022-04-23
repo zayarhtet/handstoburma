@@ -416,11 +416,25 @@ header {
         font-size: 30px;
         color: var(--handstoburma-secondary);
     }
+    .footer-menu h3 {
+        font-size: 25px;
+
+    }
+    .contact-us h3 {
+        font-size: 25px;
+
+    }
 }
 
 @media screen and (max-width: 480px) {
     .banner-content h1 {
         font-size: 20px;
         line-height: 30px;
+    }
+    .footer-menu h3 {
+        font-size: 20px;
+    }
+    .contact-us h3 {
+        font-size: 20px;
     }
 }
