@@ -176,11 +176,96 @@ header {
     line-height: 40px;
 }
 
-/* .intro-text p::first-letter {
-    font-size: 50px;
+.footer-menu {
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+.contact-us {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.footer-menu h3 {
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: var(--handstoburma-primary);
+    font-size: 30px;
     font-weight: 600;
-} */
+    line-height: 40px;
+}
+.contact-us h3 {
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: var(--handstoburma-primary);
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    transition: all 200ms 50ms ease-out;
+}
+
+.footer-menu ul li a:hover {
+    color: var(--handstoburma-secondary);
+    font-size: 22px;
+}
+
+.address h5 {
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.address p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--handstoburma-primary);
+}
+
+.social {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.social ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social ul li a {
+    font-size: 30px;
+    color: var(--handstoburma-primary);
+    transition: all 200ms 50ms ease-out;
+}
+
+.social ul li a:hover {
+    font-size: 35px;
+    color: var(--handstoburma-secondary);
+}
 
 .img-what {
     width: 100%;
@@ -194,6 +279,37 @@ header {
     padding: 10px;
 }
 
+.short-border-bottom-left {
+    width: 100px;
+    height: 4px;
+    background-color: var(--handstoburma-secondary);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+.copyright p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--handstoburma-primary);
+    text-align: center;
+}
+
+.disclaimer {
+    font-size: 18px;
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-weight: 600;
+}
+
+.disclaimer-text {
+    font-size: 14px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+}
 
 @media screen and (max-width: 1200px) {
     .menu {
@@ -214,6 +330,9 @@ header {
         font-size: 16px;
         line-height: 30px;
     }
+    .footer-menu {
+        padding-left: 40px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -228,6 +347,12 @@ header {
     }
     .ques-ans-r {
         padding-left: 0px;
+    }
+    .footer-menu {
+        padding-left: 10px;
+    }
+    .contact-us {
+        padding-left: 10px;
     }
 }
 
@@ -263,11 +388,33 @@ header {
         font-size: 14px;
         line-height: 25px;
     }
+    .contact-us {
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .idps-war-refugees h3 {
         font-size: 30px;
+    }
+    .social ul li {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .social ul li a {
+        font-size: 25px;
+        color: var(--handstoburma-primary);
+        transition: all 200ms 50ms ease-out;
+    }
+    
+    .social ul li a:hover {
+        font-size: 30px;
+        color: var(--handstoburma-secondary);
     }
 }
 
