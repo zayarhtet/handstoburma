@@ -274,6 +274,10 @@ body {
     color: var(--handstoburma-primary);
 }
 
+p {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 1200px) {
     .menu {
         padding: 25px 15px;
