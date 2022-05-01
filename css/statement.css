@@ -46,6 +46,38 @@
     background-color: #fafafa;
 }
 
+.report-table {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    border-radius: 10px!important;
+}
+
+table tr th {
+    /* border: 1px solid var(--handstoburma-primary); */
+    background-color: var(--handstoburma-primary);
+    color: #fafafa;
+    font-weight: 400;
+    padding: 15px;
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table tr td {
+    /* border: 1px solid var(--handstoburma-primary); */
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(219, 177, 188, 0.5);
+}
+
 
 
 .pagination p {
