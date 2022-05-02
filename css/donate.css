@@ -56,6 +56,55 @@
     width: 400px;
 }
 
+.custom-dropdown {
+    border: 1px solid var(--handstoburma-primary)!important;
+    font-family: Popins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary)!important;
+    font-size: 15px!important;
+    border-radius: 5px!important;
+    width: 300px!important;
+    padding: 5px 10px!important;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.postal-code {
+    border: 1px solid var(--handstoburma-primary)!important;
+    font-family: Popins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary)!important;
+    font-size: 15px!important;
+    border-radius: 5px!important;
+    width: 200px!important;
+    padding: 5px 10px!important;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.phone-input {
+    border: 1px solid var(--handstoburma-primary)!important;
+    font-family: Popins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary)!important;
+    font-size: 15px!important;
+    border-radius: 5px!important;
+    width: 250px!important;
+    padding: 5px 10px!important;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.country-code {
+    border: 1px solid var(--handstoburma-primary)!important;
+    font-family: Popins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary)!important;
+    font-size: 15px!important;
+    border-radius: 5px!important;
+    width: 60px!important;
+    padding: 5px 10px!important;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 1200px) {
     .box-contents {
         padding-left: 50px;
@@ -64,6 +113,9 @@
     }
     .normal-text-box {
         width: 300px;
+    }
+    .custom-dropdown {
+        width: 250px!important;
     }
 }
 
@@ -75,6 +127,12 @@
     .normal-text-box {
         width: 250px;
     }
+    .custom-dropdown {
+        width: 120px!important;
+    }
+    .postal-code {
+        width: 100px!important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -84,6 +142,16 @@
     .normal-text-box {
         width: 200px;
     }
+    .custom-dropdown {
+        width: 200px!important;
+    }
+    .postal-code {
+        width: 200px!important;
+    }
+    
+    .phone-input {
+        width: 338px!important;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -92,5 +160,18 @@
     }
     .width-xs-100 {
         width: 100%;
+    }
+    .custom-dropdown {
+        width: 100%!important;
+    }
+    .postal-code {
+        width: 100%!important;
+    }
+    .phone-input {
+        width: 80%!important;
+    }
+    
+    .country-code {
+        width: 20%!important;
     }
 }

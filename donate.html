@@ -77,9 +77,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                                    <div>
+                                                    <div class="width-xs-100">
                                                         <label for="country">country</label>
-                                                        <select class="form-select color-dropdown-menu" aria-label="Default select example">
+                                                        <select class="form-select color-dropdown-menu custom-dropdown" aria-label="Default select example">
                                                             <!-- <option selected>MONTH - APRIL</option> -->
                                                             <option value="1">HUNGARY</option>
                                                             <option value="2">BURMA</option>
@@ -91,20 +91,20 @@
                                                             <option value="8">UK</option>
                                                         </select>
                                                     </div>
-                                                    <div>
+                                                    <div class="width-xs-100">
                                                         <div>
                                                             <label for="postal">postal code</label>
                                                             <div class="segment-right"></div>
                                                         </div>
-                                                        <input type="text" name="postal" id="postal" />
+                                                        <input type="text" name="postal" id="postal" class="postal-code"/>
                                                     </div>
-                                                    <div>
+                                                    <div class="width-xs-100">
                                                         <div>
-                                                            <label for="phone">E-mail:</label>
+                                                            <label for="phone">phone</label>
                                                             <div class="segment-right"></div>
                                                         </div>
-                                                        <div class="d-flex">
-                                                            <select class="form-select color-dropdown-menu" aria-label="Default select example">
+                                                        <div class="d-flex flex-nowrap justify-content-between width-xs-100">
+                                                            <select class="form-select color-dropdown-menu country-code" aria-label="Default select example">
                                                                 <option selected>00</option>
                                                                 <option value="1">+95</option>
                                                                 <option value="2">+95</option>
@@ -113,17 +113,17 @@
                                                                 <option value="5">+972</option>
                                                                 <option value="6">+971</option>
                                                             </select>
-                                                            <input type="text" name="phone" id="phone" />
+                                                            <input type="text" name="phone" id="phone" placeholder="0123456789" class="phone-input" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
                                                     <div class="width-xs-100">
                                                         <div>
-                                                            <label for="phone">phone</label>
+                                                            <label for="phone">email</label>
                                                             <div class="segment-right"></div>
                                                         </div>
-                                                        <input type="text" name="phone" id="phone" class="normal-text-box" placeholder="0123456789" />
+                                                        <input type="email" name="email" id="phone" class="normal-text-box" placeholder="johndoe@handstoburma.org" />
                                                     </div>
                                                     <div class="width-xs-100">
                                                         <div>
