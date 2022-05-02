@@ -105,6 +105,11 @@
     margin-top: 10px;
 }
 
+label {
+    font-family: Popins, Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+}
+
 @media screen and (max-width: 1200px) {
     .box-contents {
         padding-left: 50px;
