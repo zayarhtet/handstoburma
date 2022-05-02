@@ -90,10 +90,6 @@
     padding-right: 100px;
 }
 
-.wh-ques-r {
-    
-}
-
 .wh-ques-r h3{
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: var(--handstoburma-primary);
@@ -109,8 +105,6 @@
     font-weight: 600;
     text-align: left;
 }
-
-.wh-ans-r {}
 
 .wh-ans-r p {
     font-family: Poppins, Arial, Helvetica, sans-serif;
