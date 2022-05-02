@@ -183,7 +183,6 @@ label {
 
 @media screen and (max-width: 480px) {
     .box-contents {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
     }
 }
