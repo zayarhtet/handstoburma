@@ -1,0 +1,42 @@
+.short-border-left-bottom {
+    width: 130px;
+    height: 4px;
+    background-color: var(--handstoburma-secondary);
+}
+
+.short-border-center-bottom {
+    width: 30%;
+    height: 4px;
+    background-color: var(--handstoburma-secondary);
+    margin: 0 auto;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.statement-title h1 {
+    text-align: center;
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+
+.first-passage p {
+    text-align: justify;
+    line-height: 40px;
+}
+
+.first-passage p .myanmar-span {
+    color: var(--handstoburma-primary);
+    font-weight: 600;
+    transition: all 200ms 50ms ease-out;
+}
+
+.first-passage p .myanmar-span:hover {
+    color: var(--handstoburma-secondary);
+    font-size: 17px;
+}
