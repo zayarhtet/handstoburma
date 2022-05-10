@@ -131,7 +131,8 @@ body {
 .menu {
     background-color: var(--handstoburma-primary);
     padding: 25px 30px;
-    
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
 }
 
 .menu li a {
@@ -300,6 +301,9 @@ p {
     .contact-us {
         padding-left: 10px;
     }
+    .logo {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -307,6 +311,9 @@ p {
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .menu li {
+        margin: 5px;
     }
 }
 

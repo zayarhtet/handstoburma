@@ -25,6 +25,20 @@
     text-align: center;
 }
 
+.statement-title h2 {
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    color: var(--handstoburma-primary);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: all 200ms 50ms ease-out;
+}
+
+.statement-title h2:hover {
+    color: var(--handstoburma-secondary);
+    font-size: 30px;
+}
+
 .first-passage p {
     text-align: justify;
     line-height: 40px;
@@ -39,4 +53,9 @@
 .first-passage p .myanmar-span:hover {
     color: var(--handstoburma-secondary);
     font-size: 17px;
+}
+
+.first-passage article p {
+    text-align: justify;
+    line-height: 35px;
 }
