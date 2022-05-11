@@ -14,6 +14,9 @@
     <script src="https://kit.fontawesome.com/aed58b3f22.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <button type="button" class="btn btn-floating btn-lg rounded-circle" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     <header class="">
         <section class="">
             <div class="container p-4">
@@ -25,10 +28,10 @@
                     </div>
                     <div class="col-lg-8">
                         <ul class="d-flex justify-content-around flex-wrap menu align-items-center">
+                            <li><a href="index.html">HOME</a></li>
                             <li><a href="statement.html">STATEMENT</a></li>
                             <li><a href="idps.html">IDPs</a></li>
                             <li><a href="">NEWS & GALLERY</a></li>
-                            <li><a href="">BURMA's HISTORY</a></li>
                             <li><a href="">FAQ</a></li>
                             <li><a href="donate.html" target="_blank">DONATE</a></li>
                         </ul>
@@ -48,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <form action="mailto:zayarhtet797@gmail.com" method="post">
+                <form id="myForm" action="mailto:zayarhtet797@gmail.com" method="post" >
                     <div class="row">
                         <div class="col-12">
                             <aside id="info-block">
@@ -149,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row card-xs-margin mb-5"> <!-- setup padding/margin -->
+                    <div class="row card-xs-margin mb-5">
                         <div class="col-lg-4"></div>
                         <div class="col-lg-4">
                             <div class="card-credentials">
@@ -158,7 +161,7 @@
                                         <div>
                                             <label for="amount" class="card-font">CARDHOLDER'S NAME</label>
                                         </div>
-                                        <input type="text" name="amount" id="amount" placeholder="999$" class="card-name-input" />
+                                        <input type="text" name="amount" id="amount" placeholder="John Doe" class="card-name-input" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -166,7 +169,7 @@
                                         <div>
                                             <label for="amount" class="card-font">CARD NUMBER</label>
                                         </div>
-                                        <input type="text" name="amount" id="amount" placeholder="999$" class="card-number-input" />
+                                        <input type="text" name="amount" id="amount" placeholder="0000 0000 0000 0000" class="card-number-input" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -182,7 +185,7 @@
                                                 <div>
                                                     <label for="cvc" class="card-font">CVC</label>
                                                 </div>
-                                                <input type="text" name="cvc" id="cvc" placeholder="CVC" class="cvc-input" />
+                                                <input type="text" name="cvc" id="cvc" placeholder="000" class="cvc-input" />
                                             </div>
                                         </div>
                                     </div>
@@ -221,8 +224,8 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="d-flex justify-content-center">
-                                            <input type="submit" name="submit" value="Send" class="mx-4" />
-                                            <input type="reset" name="reset" value="Clear Form" class="mx-4" />
+                                            <input type="submit" name="submit" value="Send" class="mx-4 btn btn-primary" />
+                                            <input id="confirm" type="button" name="reset" value="Reset" class="mx-4 btn btn-danger" onclick="confirmAction()"/>
                                         </div>
                                     </div>
                                 </div>
@@ -301,5 +304,16 @@
             </div>
         </section>
     </footer>
+    <script>
+        function confirmAction() {
+            let confirmAction = confirm("Are you sure you want to clear the form? You may need to fill it again.");
+            if (confirmAction) {
+                document.getElementById("confirm").setAttribute("type", "reset");
+            } else {
+                document.getElementById("confirm").setAttribute("type", "button");
+            }
+        }
+    </script>
+    <script src="./common.js"></script>
 </body>
 </html>

@@ -109,12 +109,27 @@ input, select {
     --handstoburma-secondary: #DBB1BC;
 }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: var(--handstoburma-secondary)!important;
+    color: #fafafa;
+    transition: all 200ms 50ms ease-out;
+}
+
+#btn-back-to-top:hover {
+    box-shadow: 0 0 5px var(--handstoburma-primary);
+}
+
 * {
     text-decoration: none;
 }
 
 body {
     background-color: #fafafa;
+    /* scroll-behavior: smooth; */
 }
 
 .header {
@@ -142,14 +157,32 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+    transition: all 200ms 50ms ease-out;
+}
+
+.menu li a:hover {
+    font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--handstoburma-secondary); 
+    text-shadow: 1px 1px 1px #000;
 }
 
 .menu li:last-child a {
+    border: 1px solid var(--handstoburma-secondary);
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #f8f8f8;
+    box-shadow: 0 0 2px white;
+    transition: all 200ms 50ms ease-out;
+}
+.menu li:last-child a:hover {
     border: 1px solid none;
     padding: 8px 12px;
     border-radius: 3px;
-    background-color: #DBB1BC;
-    color: black;
+    background-color: var(--handstoburma-secondary);
+    color: var(--handstoburma-primary);
+    box-shadow: 0 0 2px black;
+    text-shadow: 0 0 0;
 }
 
 .footer-menu {
@@ -277,6 +310,10 @@ body {
 
 p {
     font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.text-stroke {
+    color: var(--handstoburma-secondary)!important;
 }
 
 @media screen and (max-width: 1200px) {

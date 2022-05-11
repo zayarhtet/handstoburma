@@ -1,12 +1,12 @@
 .haha {
-    background: url("../assets/images/home-bg.jpg") no-repeat center;
+    background: url("../assets/images/home-bg-2.png") no-repeat center;
     background-size: cover;
     height: 100vh;
     max-height: 100vh;
     position: relative;
-    z-index: -11111;
-    /* filter: contrast(135%); */
-    filter: blur(8px);
+    /* z-index: -11111;
+     filter: contrast(135%);
+    filter: blur(8px); */
 }
 
 .banner-content {
@@ -22,16 +22,18 @@
 
 .banner-content h1 {
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
-    color: var(--handstoburma-primary);
+    color: #fafafa;
     font-weight: 600;
     line-height: 60px;
+    text-shadow: 0 0 10px var(--handstoburma-primary);
 }
 
 .banner-content p {
     font-size: 16px;
     line-height: 30px;
-    color: var(--handstoburma-primary);
+    color: white;
     font-family: Poppins, Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px black;
 }
 
 .banner-content a {
@@ -40,21 +42,23 @@
     text-decoration: none;
     font-family: "Source Serif Pro", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: var(--handstoburma-primary);
+    color: white;
     font-weight: 600;
     letter-spacing: 1px;
     word-spacing: 3px;
     text-align: center;
     padding: 8px 20px;
     background-color: transparent;
-    border: 2px solid var(--handstoburma-primary);
+    border: 2px solid white;
     border-radius: 100px;
     transition: all 200ms 50ms ease-out;
+    box-shadow: 0 0 2px black;
 }
 
 .banner-content a:hover {
-    color: #fff;
-    background-color: var(--handstoburma-primary);
+    color: var(--handstoburma-primary);
+    background-color: var(--handstoburma-secondary);
+    border: 2px solid transparent;
 }
 
 .idps-war-refugees {
