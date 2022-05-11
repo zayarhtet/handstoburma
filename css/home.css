@@ -220,6 +220,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .banner-content {
+        margin-top: calc(100vh - 650px);
+
+    }
     .banner-content h1 {
         font-size: 20px;
         line-height: 30px;
