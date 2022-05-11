@@ -23,7 +23,7 @@
 .banner-content h1 {
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: #fafafa;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 60px;
     text-shadow: 0 0 10px var(--handstoburma-primary);
 }
@@ -67,11 +67,11 @@
     margin-bottom: 10px;
 }
 
-.idps-war-refugees h3 {
+.idps-war-refugees h1 {
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: var(--handstoburma-primary);
     font-size: 35px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 40px;
 }
 
@@ -94,19 +94,19 @@
     padding-right: 100px;
 }
 
-.wh-ques-r h3{
+.wh-ques-r h2{
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: var(--handstoburma-primary);
     font-size: 30px;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-align: right;
 }
 
-.wh-ques-l h3 {
+.wh-ques-l h2 {
     font-size: 30px;
     font-family:  "Source Serif Pro", Arial, Helvetica, sans-serif;
     color: var(--handstoburma-primary);
-    font-weight: 600;
+    /* font-weight: 600; */
     text-align: left;
 }
 
@@ -216,6 +216,12 @@
 @media screen and (max-width: 576px) {
     .idps-war-refugees h3 {
         font-size: 30px;
+    }
+    .wh-ques-r h2{
+        text-align: left;
+    }
+    .wh-ans-r p {
+        text-align: left;
     }
 }
 
