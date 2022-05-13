@@ -153,6 +153,16 @@ body {
     /* scroll-behavior: smooth; */
 }
 
+.logo-container a{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
 .header {
     height: 100vh;
 }
@@ -361,6 +371,9 @@ p {
     }
     .logo {
         text-align: center;
+    }
+    .logo-container a{
+        justify-content: center;
     }
 }
 
