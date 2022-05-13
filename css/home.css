@@ -150,6 +150,10 @@
     padding: 10px;
 } */
 
+.mcustom {
+    margin-top: 40px!important;
+}
+
 @media screen and (max-width: 1200px) {
     .ques-ans-r {
         padding-left: 10px;
@@ -174,6 +178,10 @@
     }
     .ques-ans-r {
         padding-left: 0px;
+    }
+    .banner-content {
+        margin-top: calc(100vh - 700px);
+
     }
 }
 
@@ -220,6 +228,9 @@
     }
     .wh-ans-r p {
         text-align: left;
+    }
+    .mcustom {
+        margin-top: 0px!important;
     }
 }
 
